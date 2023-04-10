@@ -18,4 +18,3 @@ $contascorrentes = [$conta1, $conta2];
 for($i=0; $i<count($contascorrentes); $i++){
   echo $contascorrentes[$i]['titular'] . PHP_EOL;
 }
-?>
