@@ -28,6 +28,8 @@ $contascorrentes['123.456.789-10']['saldo'] = deposito($contascorrentes['123.456
 
 titularComLetrasMaiusculas($contascorrentes['123.456.789-10']);
 
+unset ($contascorrentes['123.654.789-72']);
+
 foreach($contascorrentes as $cpf => $conta){
   echo $cpf . " " . $conta['titular'] . " " . $conta['saldo'] . PHP_EOL;
 }
